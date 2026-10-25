@@ -1,0 +1,39 @@
+﻿Genus,Species,phylum,Fauna,Quarter Collected,Eo,Eo SE,Ao,Ao SE,𝜀,𝜀 SE,Ed,Ed SE,Alphad,Alphad SE,delta,delta SE,Es,U-shape
+Terebratalia,transversa,Brachiopoda,P,FHL 2022,0.6151,0.1558,41.659,3.25E+02,-0.268,0.097,0.9162,0.3534,0.0017,5.32E-04,-0.3202,0.177,0.3011,
+Terebratulina,septentrionalis,Brachiopoda,P,Gulf of Maine 2022,1.3538,0.345,78.908,8.07E+02,1.2376,0.3276,-0.2646,0.5103,0.00061157,1.56E-04,0.1855,0.7654,-1.6184,
+Florometra,serratissima,Echinodermata,P,Bamfield 2019,0.4456,0.2108,4.30E+01,3.32E+02,-0.3565,0.8512,0.4752,0.1984,0.0034,4.21E-04,0.0181,0.7653,0.0296,
+Henricia,sp.,Echinodermata,P,FHL 2022,0.2622,0.3491,41.0366,154.4991,-0.7382,0.2876,0.6479,0.1702,0.0025,3.82E-04,-0.9347,0.2324,,
+Leptasterias,hexactis,Echinodermata,P,FHL 2022,0.371,0.3963,30.3771,116.706,-0.3007,0.4381,0.6776,0.1476,0.0028,3.20E-04,-0.3011,0.1137,0.3069,
+Ophiopholis,aculeata,Echinodermata,P,FHL 2022,0.3194,0.3309,56.92,2.39E+02,-0.4524,0.5689,0.5888,0.2478,0.0014,2.33E-04,0.2335,0.3873,0.2694,
+Strongylocentrotus,droebachiensis,Echinodermata,M,Hakai 2019,0.3903,0.1363,35.35,3.36E+02,-0.0506,0.0454,0.414,0.1989,0.0153,0.0045,-0.3413,0.061,0.0237,
+Kellettia,kelletii,Mollusca,M,Marinus Scientific 2021,0.2453,0.1501,17.109,1.89E+02,0.2215,0.1912,0.4283,0.1584,7.34E-04,7.48E-05,-0.7632,0.1769,0.183,
+Argopecten,irradians,Mollusca,M,Gulf Specimens 2021,0.7002,0.1595,40.3312,177.5543,-0.0786,0.1673,0.69,0.1576,0.0042,0.00099623,-0.2566,0.1329,-0.0102,X
+Calliostoma,ligatum,Mollusca,M,FHL 2022,0.7198,0.1044,20.972,261.8367,-0.7207,0.1367,0.6993,0.16,0.0027,3.20E-04,-0.3796,0.1082,-0.0205,
+Glycymeris,septentrionalis,Mollusca,M,FHL 2022,0.1045,0.2222,27.7085,243.6891,-0.0976,0.2072,0.0518,0.3678,0.0021,4.25E-04,-0.6717,0.3364,-0.0527,
+Sinistrofulgur,sinistrum,Mollusca,M,Gulf Specimens 2021,0.4395,0.1349,43.085,2.24E+02,-0.0622,0.1206,0.9815,0.2917,3.98E-04,2.11E-04,-1.2928,0.5784,0.542,X
+Mya,arenaria,Mollusca,M,Gulf of Maine 2022,0.295,0.0913,17.002,2.27E+02,0.2882,0.2251,0.587,0.0913,4.01E-04,3.01E-05,-0.3658,0.1809,0.292,
+Mesocentrotus,franciscanus,Echinodermata,M,FHL 2022,0.5029,0.1358,24.9909,242.9356,0.1667,0.1136,0.6582,0.1815,0.0046,1.30E-03,-0.7685,0.242,0.1553,
+Diadumene,lineata,Cnidaria,P,Boag  et al. 2018,0.8809,0.3559,2.31E+02,3.34E+02,,,,,,,,,,X
+Nematostella,vectensis,Cnidaria,P,Endress  et al. 2024,0.5779,0.1209,5.65E+01,2.72E+02,,,,,,,,,,X
+Doryteuthis,opalescens,Mollusca,P,Endress  et al. 2024,0.5184,0.2231,2.84E+01,2.94E+02,,,,,,,,,,X
+Centropristis,striata,Chordata,M,Slesinger et al. 2019,0.3163,0.0483,2.49E+01,3.12E+02,0.0128,0.1385,0.5074,0.0599,60.6703,6.39004,-0.1668,0.1382,0.1911,
+Maja,brachydactyla,Arthropoda,M,Cerezo Valverde et al 2012,0.2743,0.0849,15.0411,156.223,,,,,,,,,,
+Chrysoblephus ,laticeps,Chordata,M,Duncan et al. 2020,0.3084,0.0679,2.00E+01,3.34E+02,,,,,,,,,,
+Strongylocentrotus,purpuratus,Echinodermata,M,Duncan  et al. 2023,0.5599,0.0324,29.7436,1.23E+03,,,,,,,,,,
+Haliotis,rufescens,Mollusca,M,Duncan  et al. 2023,0.4082,0.0456,16.2512,495.4034,,,,,,,,,,
+Lytechinus,pictus,Echinodermata,M,Endress  et al. 2024,0.2616,0.2033,3.69E+01,2.38E+02,,,,,,,,,,X
+Sergia,robustus,Arthropoda,M,Deutsch et al 2020,0.6765,0.4264,26.9152,1.20E+02,,,,,,,,,,
+Systellaspis,debilis,Arthropoda,M,Deutsch et al 2020,0.2367,0.0769,20.1934,2.94E+02,,,,,,,,,,
+Sergestes,fulgens,Arthropoda,M,Deutsch et al 2020,0.5598,0.0016,12.8396,1.06E+04,,,,,,,,,,
+Sergestes,tenuiremis,Arthropoda,M,Deutsch et al 2020,0.3672,0.0156,17.9666,1.38E+03,,,,,,,,,,
+Sergestes,bisulcatus,Arthropoda,M,Deutsch et al 2020,0.4768,0.0158,14.0814,1.12E+03,,,,,,,,,,
+Salmo,salar,Chordata,M,Deutsch et al 2020,0.3484,0.0353,10.3731,5.37E+02,,,,,,,,,,
+Pecten,maximus,Mollusca,M,Deutsch et al 2020,0.3407,0.0619,21.7463,3.27E+02,,,,,,,,,,
+Oplophorus,spinosus,Arthropoda,M,Deutsch et al 2020,0.3738,0.3015,19.429,7.74E+01,,,,,,,,,,
+Oplophorus,gracilirostris,Arthropoda,M,Deutsch et al 2020,0.1381,0.0189,17.4218,9.77E+02,,,,,,,,,,
+Mytilus,spp. ,Mollusca,M,Deutsch et al 2020,0.1378,0.0649,16.4824,2.59E+02,,,,,,,,,,
+Melanostigma,pammelas,Chordata,M,Deutsch et al 2020,1.3864,0.3683,14.0536,3.81E+01,,,,,,,,,,
+Gobiodon,histrio,Chordata,M,Deutsch et al 2020,0.9547,0.2007,130.421,2.93E+02,,,,,,,,,,
+Gobiodon,erythrospilus,Chordata,M,Deutsch et al 2020,0.3927,0.1096,66.972,2.79E+02,,,,,,,,,,
+Gnathophausia,zoea,Arthropoda,M,Deutsch et al 2020,0.1231,1.0887,47.1035,3.60E+01,,,,,,,,,,
+Acanthephyra,smithi,Arthropoda,M,Deutsch et al 2020,-0.0291,0.0165,28.993,1.71E+03,,,,,,,,,,

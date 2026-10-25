@@ -1,0 +1,35 @@
+# --- Operating System & Editor Files ---
+# Mac system files
+.DS_Store
+._*
+
+# Windows thumbnail and system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Text editors and IDEs (VS Code, RStudio, PyCharm, etc.)
+.vscode/
+.Rproj.user/
+.history/
+.RdataTmp/
+*.swp
+*.swo
+
+# --- Large Data Files & Raw Outputs ---
+# Raw datasets that are too large for GitHub (use cloud storage instead)
+*.Rproj
+
+# --- Compiled Writing & Document Outputs ---
+# Temporary LaTeX compilation files (if writing in LaTeX)
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+
+#downloads
+HulseNatGeo2020/
+maxent/
