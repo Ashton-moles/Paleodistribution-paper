@@ -14,8 +14,8 @@ Desktop.ini
 .history/
 *.Rhistory
 .Rhistory
-.RdataTmp
-*.RdataTmp
+.RDataTmp
+*.RDataTmp
 .RdataTmp
 *.swp
 *.swo

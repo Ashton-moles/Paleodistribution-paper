@@ -14,7 +14,7 @@ An investigation into which environmental variables dictated the distribution of
 
 ## About the Project
 
-252 million years ago "the great dying" occurred killing 81% of marine species and 70% of all terrestrial species. There is little debate on the cause of this mass extinction, geological records provide substantial evidence of the Siberian traps erupting for 2 million years. However, whilst the geological evidence gives us an understanding of the mechanisms of the extinction it can't tell us the physiological reaction of species. This project attempts to bridge the gap between the geological and physiological to give a better understanding of the reaction of marine species to the immense change in climate.
+252 million years ago a mass extinction event coined "the great dying" occurred killing 81% of marine species and 70% of all terrestrial species. There is little debate on the cause of this mass extinction, geological records provide substantial evidence of the Siberian traps erupting for 2 million years. However, whilst the geological evidence gives us an understanding of the mechanisms of the extinction it can't tell us the physiological reaction of species. This project used a model to predict what environmental variables drove the distribution of animals and before the mass extinction and how it changed after. This bridges the gap between the geological and physiological to give a better understanding of the reaction of marine species to the immense change in climate. By understanding the drivers of distribution under climate forcing in the past, this project provides evidence that could aid in the prioritisation of the most vulnerable taxa and habitats.
 
 ## Built With
 [R](https://www.r-project.org/)
