@@ -31,7 +31,7 @@ An investigation into which environmental variables dictated the distribution of
 
 70,000 marine fossils from the paleobiology database were made into a .csv file. A column for paleorotation was added, and the data was filtered for the desired marine occurrences. The data included lots of N/A cells as well as inconsistent naming, dplyr and tidyr were used to make the dataset more uniform and fit for purpose. Finally the data was split into different dataframes based on the age of the fossils as we are investigating distribution before and after the mass extinction event.
 
-![Visualisation of cleaned data](/plots/line_plots_final.png "Visualisation of cleaned data")
+![Visualisation of cleaned data](/Plots/line_plots_final.png "Visualisation of cleaned data")
 
 ## Calculating and Mapping the Metabolic Index
 
@@ -41,18 +41,18 @@ The metabolic index is a framework to determine an organisms metabolic tolerance
 
 Maxent is a machine learning model based on the principle of maximum entropy. It uses presence absence data and environmental variables to predict the distribution of species, it is commonly used in conservation and climate change research. However, the model is not limited to this research area, with applications in natural language processing, computer vision and modelling neural network firing patterns.
 
-![Gif of pre-extinction maxent outputs](/gifs/Pre-extinction prediciton plots "Pre-extinction prediction plots")
+![Gif of pre-extinction maxent outputs](/gifs/Pre-extinction prediciton plots.gif "Pre-extinction prediction plots")
 
-##Results
+## Results
 
 Before running analysis I had to test for and resolve col-linearity to allow the model to better predict based on the variables we want to understand. This exposed an issue that I had to rectify down the line, oxygen and temperature \(two variables we wanted to investigate independently\) were collinear. 
 
-![Collinearity heatmap](/Statistics/Pre and post extinction collinearity heatmaps "Pre and post extinction collinearity heatmaps")
+![Collinearity heatmap](/Statistics/Pre and post extinction collinearity heatmaps.png "Pre and post extinction collinearity heatmaps")
 
 By modelling the environmental conditions at each fossil location we predicted their distribution before and after the end-Permian mass extinction. The Maxent model gives us the permutation importance of each genera which allows us to compare how much each variable influenced the distribution of marine ectotherms and therefore the physiological pressure that impacted them most.
 
-![The permutation importance of environmental variables before and after the EPME](/Plots/Environmental drivers of distribution Pre vs Post Extinction "The perutation importance of environmental variables before and after the EPME")
+![The permutation importance of environmental variables before and after the EPME](/Plots/Environmental drivers of distribution Pre vs Post Extinction.png "The perutation importance of environmental variables before and after the EPME")
 
 The models were also ran without the important col-linear variables.
 
-![Plots without col-linearity](/Plots/ENV_vars_boxplots_all "Plots without col-linearity")
+![Plots without col-linearity](/Plots/ENV_vars_boxplots_all.png "Plots without col-linearity")
