@@ -35,7 +35,9 @@ An investigation into which environmental variables dictated the distribution of
 
 ## Calculating and Mapping the Metabolic Index
 
-The metabolic index is a framework to determine an organisms metabolic tolerance to surrounding environmental parameters. Environmental parameters for the fossil occurrences were predicted by the cGENIE earth model. Oxygen, slainity and temperature are needed to calculate the oxygen partial pressure. The oxygen partial pressure was used alongside, temperature, the Boltzmann constant and phylum reference physiological limits. The aim is to calcualate a phylum's metabolic index for the whole end-Permian globe and use that as a predictor for distribution, comparing it to oxygen and temperature to see if its more effective. 
+The metabolic index is a framework to determine an organisms metabolic tolerance to surrounding environmental parameters. Environmental parameters for the fossil occurrences were predicted by the cGENIE earth model. Oxygen, slainity and temperature are needed to calculate the oxygen partial pressure. The oxygen partial pressure was used alongside, temperature, the Boltzmann constant and phylum reference physiological limits. The aim is to calcualate a phylum's metabolic index for the whole end-Permian globe and use that as a predictor for distribution, comparing it to oxygen and temperature to see if its more effective.
+
+$$\Phi = A_{\circ} \frac{pO_2}{\exp\left[\frac{-E_{\circ}}{k_{\text{B}}}\left(\frac{1}{T} - \frac{1}{T_{\text{ref}}}\right)\right]}$$
 
 ## The Prediction Model
 
@@ -45,14 +47,14 @@ Maxent is a machine learning model based on the principle of maximum entropy. It
 
 ## Results
 
-Before running analysis I had to test for and resolve col-linearity to allow the model to better predict based on the variables we want to understand. This exposed an issue that I had to rectify down the line, oxygen and temperature \(two variables we wanted to investigate independently\) were collinear. 
+Before running analysis I had to test for and resolve collinearity to allow the model to better predict based on the variables we want to understand. This exposed an issue that I had to rectify down the line, oxygen and temperature \(two variables we wanted to investigate independently\) were collinear. 
 
-![Collinearity heatmap](/Statistics/Pre and post extinction collinearity heatmaps.png "Pre and post extinction collinearity heatmaps")
+![Collinearity heatmap](Statistics/Pre_and_post_extinction_collinearity_heatmaps.png "Pre and post extinction collinearity heatmaps")
 
 By modelling the environmental conditions at each fossil location we predicted their distribution before and after the end-Permian mass extinction. The Maxent model gives us the permutation importance of each genera which allows us to compare how much each variable influenced the distribution of marine ectotherms and therefore the physiological pressure that impacted them most.
 
-![The permutation importance of environmental variables before and after the EPME](/Plots/Environmental drivers of distribution Pre vs Post Extinction.png "The perutation importance of environmental variables before and after the EPME")
+![The permutation importance of environmental variables before and after the EPME](Plots/Environmental_drivers_of_distribution_Pre_vs_Post_Extinction.png "The perutation importance of environmental variables before and after the EPME")
 
-The models were also ran without the important col-linear variables.
+The models were also ran without the important collinear variables.
 
-![Plots without col-linearity](/Plots/ENV_vars_boxplots_all.png "Plots without col-linearity")
+![Plots without collinearity](/Plots/ENV_vars_boxplots_all.png "Plots without collinearity")
