@@ -12,7 +12,11 @@ Desktop.ini
 .vscode/
 .Rproj.user/
 .history/
-.RdataTmp/
+*.Rhistory
+.Rhistory
+.RdataTmp
+*.RdataTmp
+.RdataTmp
 *.swp
 *.swo
 

@@ -41,7 +41,7 @@ The metabolic index is a framework to determine an organisms metabolic tolerance
 
 Maxent is a machine learning model based on the principle of maximum entropy. It uses presence absence data and environmental variables to predict the distribution of species, it is commonly used in conservation and climate change research. However, the model is not limited to this research area, with applications in natural language processing, computer vision and modelling neural network firing patterns.
 
-![Gif of pre-extinction maxent outputs](/gifs/Pre-extinction prediciton plots.gif "Pre-extinction prediction plots")
+![Gif of pre-extinction maxent outputs](gifs/Pre-extinction_prediciton_plots.gif "Pre-extinction prediction plots")
 
 ## Results
 
